@@ -2,6 +2,9 @@
 
 To activate SSH on Ubuntu and connect to it using PuTTY from another machine, follow these steps:
 
+### NOTE
+This connection is done using the Ubuntu server in Virtual Machine
+
 ## Step 1: Install and Enable SSH on Ubuntu
 Install the SSH server (if not already installed):
 
