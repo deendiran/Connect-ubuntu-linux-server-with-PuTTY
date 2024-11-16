@@ -1,8 +1,8 @@
-## PuTTY Connection to Ubuntu Server
+# PuTTY Connection to Ubuntu Server
 
 To activate SSH on Ubuntu and connect to it using PuTTY from another machine, follow these steps:
 
-# Step 1: Install and Enable SSH on Ubuntu
+## Step 1: Install and Enable SSH on Ubuntu
 Install the SSH server (if not already installed):
 
 ```
@@ -37,7 +37,7 @@ ifconfig
 
 Look for the IP address associated with your network interface (it often appears under inet).
 
-# Step 2: Configure the Firewall (if applicable)
+## Step 2: Configure the Firewall (if applicable)
 Allow SSH through the firewall:
 
 ```
@@ -56,7 +56,7 @@ Check the firewall status to confirm SSH is allowed:
 sudo ufw status
 ```
 
-# Step 3: Connect to Ubuntu Using PuTTY
+## Step 3: Connect to Ubuntu Using PuTTY
 1. Download and install PuTTY on your Windows machine from the official PuTTY site, if you haven't already.
 
 2. Open PuTTY and enter the IP address of your Ubuntu machine in the Host Name (or IP address) field.
